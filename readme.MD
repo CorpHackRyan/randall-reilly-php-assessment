@@ -1,11 +1,11 @@
-<?php
-// Write a function that takes in two parameters:
-//   1) a json string which contains articles (example below)
-//   2) a string date in the format "2015-09-04"
-// The function should return a json string of recent articles which
-//   were published in the two weeks prior to the given date.
-//
-// Note: Feel free to run your code as many times as needed for debugging.
+Write a function that takes in two parameters:
+   1) a json string which contains articles (example below)
+   2) a string date in the format "2015-09-04"
+
+   3) The function should return a json string of recent articles which
+      were published in the two weeks prior to the given date. 
+
+Note: Feel free to run your code as many times as needed for debugging.
 
 $json = '[
   { 
@@ -25,8 +25,3 @@ $json = '[
   }
   ]';
 
-  echo var_dump(json_decode($json));
-
-
-
-?>
