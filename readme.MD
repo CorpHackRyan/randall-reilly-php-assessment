@@ -1,11 +1,12 @@
-Write a function that takes in two parameters:
-   1) a json string which contains articles (example below)
-   2) a string date in the format "2015-09-04"
+# Take home assessment for Randy Reilly
 
+### Write a function that takes in two parameters:
+   1) A json string which contains articles (example below)
+   2) A string date in the format "2015-09-04"
    3) The function should return a json string of recent articles which
       were published in the two weeks prior to the given date. 
 
-Note: Feel free to run your code as many times as needed for debugging.
+Note:  Feel free to run your code as many times as needed for debugging.
 
 $json = '[
   { 
@@ -25,4 +26,7 @@ $json = '[
   }
   ]';
 
-<img src="screen.png"">
+<br><br>
+
+Screenshot of results (last 3 lines have date results, first chunk is var_dump of array)
+<img src="screenshot.png">
