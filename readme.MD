@@ -27,6 +27,8 @@ $json = '[
   ]';
 
 <br><br>
+Screenshot  of code (source is available above in text format as well)
+<img src="./code.png">
 
 Screenshot of results (last 3 lines have date results, first chunk is var_dump of array)
-<img src="screenshot.png">
+<img src="./screenshot.png">
